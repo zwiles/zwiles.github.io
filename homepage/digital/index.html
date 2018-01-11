@@ -1,0 +1,266 @@
+<!-- Add your content of head and header -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Title page</title>  
+
+<link href="./main.97292821.css" rel="stylesheet"></head>
+
+<body>
+
+ <!-- Add your content of header -->
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-collapse">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <ul class="nav navbar-nav navbar-right">
+        
+                <p>
+                    <!a href="./components.html" class="btn btn-default navbar-btn" ><!Components</a>
+                </p>
+            </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<!-- Add your site or app content here -->
+<div class="background-image-container white-text-container" style="background-image: url('./assets/images/e.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Facebook Ads</h1>
+                <p class="">HOW MUCH DOES FACEBOOK KNOW ABOUT ME?</p>
+                <p class="">By: Zoe Wiles</p>
+                <!<a href="#contact-section-container" class="btn btn-primary btn-lg anchor-link" title=""><!HOW MUCH DOES FACEBOOK KNOW ABOUT ME?</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Abstract</h2>
+            </div>
+         <h3 class="text-center"></h3>
+                <p>Facebook has been an integral part of many people's existence since its inception. It helped change the way we communicate with friends and get information. Being a digital native myself, I often find myself getting recent news through Facebook and communicate with friends, especially my international ones. With more and more digital natives becoming the norm, companies have to find new ways to advertise to digital natives. Facebook and other social media platforms is a great way for companies to reach many people. Addittionally, they target ads for people based on what they think each user would prefer to see. In this project, I look at my digital footprint on Facebook and see what types of ads pop up on my home food. Using a chrome Webdriver, I was able to visit two sites and look around and then analyze my facebook feed.</p>
+        </div>
+        
+        </div>
+    </div>
+</div>
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Introduction</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <!--<i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>-->
+                </div>
+                <h3 class="text-center">About</h3>
+                <p>In class, we read a paper about Digital Natives, people who have grown up with the Internet almost their entire lives. Millenials and Generation Z have always been at the pinnacle of social media. Many of them use multiple social media platforms to share a lot about their life. I am part of Generation Z and use Facebook, Instagram, Snapchat, and Pinterest on a daily basis. These apps often track my actions on their site and predict what I would like to see. IN my daily obsrvations, I have noticed that when I search for something like flights or clothes, I will see more ads from the either the company I was looking at or one of their competitors.</p>
+
+                <p> Articles that helped inspire my project: </p>
+                 <a href="digitalnatives.pdf"> Digital Natives Paper</a><br/>
+                 <a href="https://www.cnbc.com/2017/11/17/how-to-find-out-what-facebook-knows-about-me.html"> What Facebook knows about you</a><br/>
+                 <a href="https://www.facebook.com/business/learn/facebook-ads-basics"> About Facebook ads</a><br/>
+                 <a href="https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/?utm_term=.35d9e968d220"> How Facebook determines what ads are best for you</a><br/>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <!--<i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>-->
+                </div>
+                <h3 class="text-center">Questions</h3>
+                <p>What does Facebook know about me currently and bases my ads on that? Based on searches I do and websites I visited, will Facebook show more ads based on that topic? Will the ads be actually of the company or related to the company?  Are there outside factors that could affect what ads I see?</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="fa-container">
+                    <!--<i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>-->
+                </div>
+                <h3 class="text-center">Hypothesis</h3>
+                <p> I think Facebook will decide what ads are the most revelant to me and show those. Based on what I have recently visited, ads relating to that topic will appear. I will either see adds about the sites I visted or sites that are related. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Data Collection</h2>
+            </div>
+         <h3 class="text-center"></h3>
+                <p>I created two variables of sites I visit and went through the process of booking a flight and just scrolling through the website actions I often do. I did not want my actions to seem super unlike my usual actions. I also used sites I use every so often to see if these companies will show more ads to showcase their products/services. For this project, I used Selenium Searches to help automate the process for my experiements. I wrote two notebooks.One notebook was just to visit the sites and go through different pages. The other notebook visited my Facebook page and looked for sponsored posts on my page. I looked fot the first ten or fifteen for testing purposes because anything longer took a while to collect ads. After that I sorted the dictionary to better showcase the ads that I receveied and also show how many ads popped up for each site. I ran this experiment three times to see differences in ads showcased. </p>
+            <p> Notebooks </p>
+                 <a href="Final Project.ipynb"> Final Project: Sites Visited</a><br/>
+                 <a href="Final Project 2.ipynb"> Final Project: Data Collection</a><br/>
+                 
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Results</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                
+                <h3 class="text-center">What Facebook Knows about Me</h3>
+                <p>These are some of the things that come up about who Facebook thinks I am and what I would be interested in</p>
+                <img src="./assets/images/s2.png .png" alt="Mountain View">
+                <img src="./assets/images/s3.png" alt="Mountain View">
+                <img src="./assets/images/s4.png" alt="Mountain View">
+                <img src="./assets/images/s5.png .png" alt="Mountain View">
+                <img src="./assets/images/s6.png" alt="Mountain View">
+                <img src="./assets/images/s7.png .png" alt="Mountain View">
+                <img src="./assets/images/s8.png" alt="Mountain View">
+                <img src="./assets/images/s9.png" alt="Mountain View">
+                <p> As seen in the above photos knows a lot about from my race, political standing, to even what Iphone I use. I never how much Facebook was able to track even about my phone. Also the below ads are have interacted so Facebook tries to show me more things that they think I would be interested in. </p>
+
+            </div>
+</br>
+</br>
+</br>
+            <div class="col-xs-12 col-md-4">
+                <!<img src="./assets/images/img-03.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Experiements</h3>
+                <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="./assets/images/e1.png .png" alt="Sandwich" style="width:100%">
+      <h3>Experiment 1: Dictionary</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="./assets/images/e2.png .png" alt="Steak" style="width:100%">
+      <h3>Experiemnt 1: Bar Graph</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="./assets/images/e3.png .png" alt="Cherries" style="width:100%">
+      <h3>Experiemnt 2: Dictionary<h3>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="./assets/images/e4.png .png" alt="Pasta and Wine" style="width:100%">
+      <h3>Experiemnt 2: Bar Graph</h3>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="./assets/images/e5.png .png" alt="Popsicle" style="width:100%">
+      <h3>Experiement 3: Dictionary</h3>
+    </div>
+    <div class="w3-quarter">
+      <img src="./assets/images/e6.png .png" alt="Salmon" style="width:100%">
+      <h3>Experiment 3: Bar Graph</h3>
+      
+
+  </div>
+
+                <p>Comparing my results to what Facebook knows about me is very interesting because it provides insight into why I got the results I got. Interestingly enough, Jetblue came as one of my top contenders even though I used Delta as an experiement. Maybe I did not see Delta because in my Facebook ad preferences Jetblue is higher and Facebook is more inclined to ads on Jetblue instead of Delta. While I did not get any airlines, I did see more sponsored posts about traveling like places to stay and eat. So even though Delta ads did not show up, Facebook seemed to be helping plan the next step of my vacation as Vacations and air travel where some of my top preferences. Similarly I chose Madewell as the brand I wanted to test but other brands such as JCrew, Kohls, Sephora where in my top fashion preferences so I saw high number of ads for these companies instead. I would be interesting to find if these show their ads more when they see I have been shopping at other brands. This also shows how I often online shop because both the category Amazon and online shopping was included in my preferences. </p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <!<img src="./assets/images/img-04.jpg" alt="" class="img-responsive">
+                <h3 class="text-center">Discussion</h3>
+                <p>The results I found are intriguing. I never knew Facebook would be able to tell what Iphone I am using. I also think my political standing was interesting because I consider myself moderate leaning on the liberal side with the current political climate, but never a full on liberal. It would be interesting to see if based on news articles I clicked on, I am more liberal then moderate. I think the most surprising thing I found was that neither company were in the top ads when going through my facebook feed. As mentoined above, I wonder since it is not high on my preferences that Facebook shows ads that they think I would like better even I visited the page frequently.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 section-container-spacer">
+                <h2 class="text-center">Conclusion and Future Study</h2>
+            </div>
+         <h3 class="text-center"></h3>
+                <p>Facebook knows a little bit too much about me that I might have to change my privacy settings on the app. With the database of information Facebook has collected of me since I have been a user I think affected what ads I was able to see.</p>
+                <p>Facebook did not show me ads of the companies but instead ads of things related to the company. Sephora and Ulta popped up frequently showing that when people search up clothes they often would like makeup that goes with it. It was surprising not to see a single ad for either of the two websites. If I had allowed it to collect say fifty or hundred ads, it might have been different. However, everytime you refresh your newsfeed, the most important ads are at the top meaning my two sites were either outbid for being on my newsfeed or were considered less important then Facebook.</p>
+                <p> I think there were outside factors that I affected what I did today. My Facebook account is associated with my Google account and my searches through selenium was not. Logging into my Google account could have helped keep track of sites I was visiting. Adittionally, Facebook is not taking only from my Facebook on my computer, but my phone and my other accounts connected to my Facebook. While testing this code, I was browsing through my Instagram and online window shopping which could have skewed the results. </p>  
+                <p>For future study, I would start a brand new Facebook and google account for Facebook to track and see if my experiments work there because Facebook would have no outside factors. Another option would be to compare my google History to my Facebook and Instagram ads. Since Facebook and Instagram are owned by the same company, it would be interesting to see if I get the same ads or different ads on the two sites. This project makes me want to find more about my digital footprint and how interconnected the Internet really is.</p>P
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+    
+  googleMapInit(); 
+  scrollToAnchor();
+  scrollRevelation('reveal');
+});
+</script>
+
+<footer class="footer-container white-text-container">
+   
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  navbarToggleSidebar();
+});
+</script>
+
+
+<script type="text/javascript" src="./main.faaf51f9.js"></script>

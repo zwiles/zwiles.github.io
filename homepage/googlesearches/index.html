@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Google Searches</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Google Searches</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Question</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Common Wellesley Google Searches</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-white mb-5">By: Zoe, Rami, and Kalau</p>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">What proportion of Wellesley student search queries are informational, and what proportion is navigational?</h2>
+            <hr class="light my-4">
+            <p class="text-white mb-4">We hypothesize that more Wellesley student search queries are navigational. </p>
+          </div>
+        </div>
+      </div>
+    
+<section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white"> Do the proportions of informational and navigational searches differ between on-campus searchers and off-campus ones? </h2>
+            <hr class="light my-4">
+            <p class="text-white mb-4">We hypothesized that Wellesley students would perform more navigational searches than non-Wellesley off campus searchers, and that non-Wellesley off campus searchers would perform more informational queries. We based this hypothesis on the anecdotal observation that most current students on campus are interested in accessing specific pages and on the Wellesley domain like Workday, Major requirements, and class sites, while non-Wellesley off-campus searchers may be researching Wellesley as part of a college search, or in general looking for information.
+</p>
+</section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Process</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Data</h3>
+              <p class="text-muted mb-0">We began this project with the data from the CSV of classified Wellesley Related search terms from the Friday class preceding Thanksgiving.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto"</i>
+              <h3 class="mb-3">Methods</h3>
+              <p class="text-muted mb-0">The environment in which this data was handled was a Jupyter Notebook based in Python 2.7 and 3 (multiple devices were involved). The data was read in from CSV and stored in a Pandas dataframe, which was sliced to obtain a dictionary of wordcounts formed using the counter function, and in order to partition the dataset into entries labeled ‘n’ and ‘i’. </p>
+              <br>
+              <p class="text-muted mb-0"> Early explorations of the data consisted of two histograms; one comparing the volume of ‘n’ versus ‘i’ queries in general, and another visualizing the distribution of the most commonly used words among all searches. Not implemented but proposed was a histogram to compare word counts between queries labeled ‘n’ and ‘i’. </p>
+              <br>
+              <p class="text-muted mb-0"> In order to analyze the data and explore our hypothesis quantitatively, we proposed a supervised classifier to predict whether queries were navigational or informational. The feature set designed for this classifier was based on a ‘scoring’ function that counted the number of ‘questioning’ words in a query, including ‘who’, ‘what’, ‘where’, ‘why’, ‘confidential’, and ‘score’. Each such word received a positive score, which was returned on completion of the function. Also proposed, though not implemented, was another function to indicate with a large negative number if a domain name or address appeared in a query to indicate it as navigational. Here, negative values correspond to navigational queries and positive ones to informational ones. </p>
+
+</p>
+            </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Conclusions</h2>
+        <p> Because a predictive algorithm was ultimately not completed, we can neither reject nor fail to reject our hypothesis. Given the information we do have and the visualizations made from our sample data, we can say with confidence that more searches are informational than navigational among the sample population. We can say nothing about the true proportions. We found the most common words overall to be: 
+
+{ 'science': 12
+ 'rate': 9,
+ 'requirements': 9,
+ 'sat': 9,
+ 2017': 8,
+ 'acceptance': 8,
+ 'course': 8,
+ 'of': 8 }
+</p>
+        
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Future Directions</h2>
+            <hr class="my-4">
+            <p class="mb-5">Given more time and dedication, we would seek to implement a classifier to predict whether a query is navigational or informational based on our data from csv, partitioned in 9/10ths fashion between training and testing data. Once we were able to come to some conclusion regarding our core question, we may choose to examine our second question, which was whether or not proportions different between the on-campus population and off-campus non-Wellesley searchers. We would do this by either using a crawler to look at our own suggested searches while physically off campus, or by spoofing our I.P. on a new browser or public computer to collect relevant data. </p>
+          </div>
+        </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
